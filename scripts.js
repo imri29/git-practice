@@ -16,7 +16,7 @@ console.log(john);
 /*======================================*/
 
 const formatDate = ({day, month, year}) => {
-  return console.log(`${day}/${month}/${year}`);
+  return console.log(`${day}/${month}/${year}`;
 };
 
-formatDate({day: 1, month: 2, year: 2018});
+formatDate({ month: 2, year: 2018});
